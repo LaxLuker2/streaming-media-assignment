@@ -1,0 +1,22 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.14.1",
+    "npm": "6.4.1"
+  },
+  "description": "Streaming Media HW RM2",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "author": "Luke Schwarting",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
